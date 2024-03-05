@@ -13,7 +13,7 @@ st.set_page_config(
 )
 
 # Membaca data CSV dari GitHub
-all_data_df = pd.read_csv("https://raw.githubusercontent.com/aldafdyhs/Submissions/main/all_data_bike_sharing.csv")
+day_hour_df = pd.read_csv("https://raw.githubusercontent.com/aldafdyhs/Submissions/main/all_data_bike_sharing.csv")
 
 # Header Streamlit dengan judul keren
 st.title('Bike-sharing Dashboard')
